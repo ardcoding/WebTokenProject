@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebTokenProject",
+    "\\WebTokenProject\\Controllers"
   ],
   "SelectedNode": "\\WebTokenProject.sln",
   "PreviewInSolutionExplorer": false

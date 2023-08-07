@@ -21,5 +21,11 @@ namespace WebTokenProject.Controllers
             Token token = TokenHandler.CreateToken(_configuration); 
             return Ok(token);
         }
+        [HttpGet("TokenValidation")]
+        public bool TokenValidation(string token)
+        {
+           bool isValid = TokenValidate.TokenValidation(token, _configuration);
+            return isValid;
+        }
     }
 }
